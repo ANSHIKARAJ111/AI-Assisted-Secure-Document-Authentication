@@ -1,8 +1,15 @@
 
-keys/private_key.pem
+node_modules/
 .venv/
 venv/
 __pycache__/
 *.pyc
 .env
 .env.*
+!.env.example
+dist/
+build/
+*.log
+*.db
+*.sqlite
+*.sqlite3
