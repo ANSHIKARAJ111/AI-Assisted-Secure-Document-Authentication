@@ -1,0 +1,193 @@
+
+/* Main application background */
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #080f20 0%,
+        #101d35 55%,
+        #152846 100%
+    );
+    color: #e8f1ff;
+}
+
+/* Main content spacing */
+.block-container {
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Headings */
+h1 {
+    color: #ffffff !important;
+    font-size: 2.6rem !important;
+    font-weight: 800 !important;
+    letter-spacing: -1px;
+}
+
+h2, h3 {
+    color: #eaf3ff !important;
+    font-weight: 700 !important;
+}
+
+p, label {
+    color: #cbd9ed;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 12px;
+    background: #111f38;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: #a9bed9;
+    background: transparent;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-weight: 600;
+}
+
+.stTabs [aria-selected="true"] {
+    background: #123b55 !important;
+    color: #4ee5f5 !important;
+}
+
+.stTabs [data-baseweb="tab-highlight"] {
+    background-color: #4ee5f5;
+}
+
+/* Upload area */
+[data-testid="stFileUploader"] {
+    background: #14243e;
+    border: 1px dashed #3685a8;
+    border-radius: 16px;
+    padding: 18px;
+}
+
+[data-testid="stFileUploaderDropzone"] {
+    background: #172d4b;
+    border-radius: 12px;
+    border: 1px dashed #448aa8;
+}
+
+/* Buttons */
+.stButton > button,
+.stDownloadButton > button {
+    background: linear-gradient(
+        90deg,
+        #00b8d9,
+        #3478f6
+    );
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.65rem 1.5rem;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover {
+    background: #00d4ee;
+    color: #071629;
+    border: none;
+    transform: translateY(-2px);
+}
+
+/* Input fields */
+.stTextInput input {
+    background: #14243e;
+    color: #ffffff;
+    border: 1px solid #365477;
+    border-radius: 10px;
+}
+
+/* Metrics */
+[data-testid="stMetric"] {
+    background: #14243e;
+    border: 1px solid #29476b;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+[data-testid="stMetricValue"] {
+    color: #4ee5f5;
+}
+
+/* Images */
+[data-testid="stImage"] img {
+    border-radius: 12px;
+    border: 1px solid #29476b;
+}
+
+/* Alerts */
+[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: #0b172b;
+}
+
+/* Divider */
+hr {
+    border-color: #29476b;
+}
+
+/* Fix white space above application */
+html, body, #root {
+    background-color: #080f20 !important;
+}
+
+[data-testid="stApp"],
+[data-testid="stAppViewContainer"],
+[data-testid="stHeader"] {
+    background-color: #080f20 !important;
+}
+
+[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
+/* Fix uploader white button and invisible text */
+[data-testid="stFileUploaderDropzone"] {
+    background-color: #172d4b !important;
+    border: 1px dashed #448aa8 !important;
+}
+
+[data-testid="stFileUploaderDropzone"] button {
+    background: #1c4264 !important;
+    color: #ffffff !important;
+    border: 1px solid #4ee5f5 !important;
+    border-radius: 10px !important;
+}
+
+[data-testid="stFileUploaderDropzone"] button:hover {
+    background: #27618c !important;
+    color: #ffffff !important;
+}
+
+[data-testid="stFileUploaderDropzone"] * {
+    color: #e8f1ff;
+}
+
+[data-testid="stFileUploaderDropzone"] small {
+    color: #a9bed9 !important;
+}
+
+/* Fix input labels and tab text */
+[data-testid="stWidgetLabel"] p {
+    color: #e8f1ff !important;
+}
+
+.stTabs [data-baseweb="tab"] p {
+    color: #cbd9ed !important;
+}
+
+.stTabs [aria-selected="true"] p {
+    color: #4ee5f5 !important;
+}

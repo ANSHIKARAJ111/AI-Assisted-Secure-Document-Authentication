@@ -1,0 +1,13 @@
+
+streamlit
+numpy
+opencv-python
+Pillow
+PyWavelets
+cryptography
+scikit-learn
+scikit-image
+pandas
+matplotlib
+PyMuPDF
+joblib
